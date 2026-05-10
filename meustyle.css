@@ -13,10 +13,9 @@ body {
     padding-top: 20px;
 }
 
-/* CONTAINER GERAL */
 
 #container {
-    color: white;
+    color: #c98787;
     font-size: 20px;
     width: 70%;
     margin: auto;
