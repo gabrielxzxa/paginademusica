@@ -1,0 +1,110 @@
+/* Arquivo CSS externo */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    font-family: "Courier New", monospace;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+/* CONTAINER GERAL */
+
+#container {
+    color: white;
+    font-size: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+
+
+.topo-musica {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.foto-artista {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* BLOCO DO TEXTO */
+
+.info-musica {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+/* TÍTULO */
+
+h1 {
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0;
+    text-align: left;
+    line-height: 1;
+    font-size: 55px;
+}
+
+/* SUBTÍTULO */
+
+.subtitulo {
+    color: orange;
+    margin: 0;
+    text-align: left;
+    line-height: 1;
+    font-size: 20px;
+    margin-top: -8px;
+}
+  .video-musica {
+       margin-bottom:40px;
+    text-align:right;
+  
+  }
+
+   .conteudo{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:40px;
+   }
+
+/* LETRA */
+
+p {
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: pre-line;
+    line-height: 1.6;
+  
+    font-size: 21px;
+}
+
+/* LINHA */
+
+hr {
+    border: none;
+    border-top: 2px solid #333;
+    margin-top: 20px;
+}
+
+/* RODAPÉ */
+
+#footer {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
